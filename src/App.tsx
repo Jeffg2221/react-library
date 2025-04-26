@@ -1,10 +1,17 @@
 import React from 'react';
 import './App.css';
 import Navbar from './layouts/NavbarAndFooter/Navbar';
+import { ExploreTopTech } from './layouts/HomePage/ExploreTopTech';
+import { Carousel } from './layouts/HomePage/Carousel';
 
 function App() {
   return (
-   <Navbar/>
+    <div>
+      <Navbar/>
+      <ExploreTopTech/>
+      <Carousel/>
+    </div>
+  
   );
 }
 
